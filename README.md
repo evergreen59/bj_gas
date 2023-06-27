@@ -32,8 +32,10 @@
 
 ```yaml
 bj_gas:
-  token: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX # 此为 APP 中抓取的 token
-  user_code: XXXXXXXXXXX                      # 此为燃气户号
+  client_id: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+  client_secret: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+  encrypted_username: xxxxxx
+  encrypted_password: xxxxxx
 ```
 
 重新启动 Home Assistant
